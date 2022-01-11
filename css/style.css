@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.card-one  {
+    background-color: #1F2937;
+    color: white;
+}
+
+.card-one > img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card > img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
