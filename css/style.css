@@ -10,13 +10,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    padding: 20px 100px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 20px 150px;
+    gap: 48px;
 }
 
 .logo {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
+    color: #F9FAF8
 }
 
 ul {
@@ -44,6 +47,9 @@ footer {
 .card-one  {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    padding:  72px 150px;
+    gap: 48px;
 }
 
 .card-one > img {
@@ -52,7 +58,107 @@ footer {
 }
 
 .card > img {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.info-card > button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.info-card > h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.card-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 36px 150px;
+}
+
+.card-two > h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 0px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px;
+}
+
+.card-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    padding: 72px 150px;
+}
+
+.card-three > cite {
+    font-weight: bold;
+    font-size: 24px;
+    font-style:normal;
+    align-self: flex-end;
+}
+
+.card-four {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    margin: 72px 150px;
+    padding: 36px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.c4-cta > h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.c4-cta > p {
+    margin-top: 8px;
+}
+
+.card-four > button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    padding: 5px 28px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 20px 150px;
 }
